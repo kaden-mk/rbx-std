@@ -63,3 +63,5 @@ function vector.new()
 
     return self
 end
+
+return vector
