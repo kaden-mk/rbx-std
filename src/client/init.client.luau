@@ -2,7 +2,7 @@ local std = require(game:GetService("ReplicatedStorage").Shared.std.std).include
 
 std.iostream.cout("Client initialized")
 
-local vector = std.vector.new()
-vector.push_back("Hello")
+local new_vector = std.vector.new()
+new_vector.push_back("Hello")
 
-print(vector.data())
+print(new_vector.data())

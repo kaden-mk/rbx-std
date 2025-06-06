@@ -40,7 +40,7 @@ function vector.new()
     end
 
     -- Returns the data inside of the vector.
-    function self.get_data(): {any}
+    function self.data(): {any}
         return data
     end
 

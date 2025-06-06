@@ -4,10 +4,12 @@ local libs = script.Parent.libs
 
 local registry = {
     iostream = require(libs.iostream),
+    vector = require(libs.vector),
 }
 
 export type Registry = {
     iostream: typeof(registry.iostream),
+    vector: typeof(registry.vector),
 }
 
 function std.include(paths: {string}): Partial<Registry>
